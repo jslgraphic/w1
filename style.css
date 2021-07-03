@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 640px;
+    height: 360px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.contentgroup{
+ display: flex;
+    
+}
+.newsitem{
+    display: flex;
+    margin-bottom: 24px;
+    margin-right: 20px;
+
+}
+.text{
+    margin-left: 20px;
+   
+}
+img{
+    vertical-align: middle;
+}
+
+.footer{
+    background-color: #00ff00;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 48px 0 48px 0;
+}
