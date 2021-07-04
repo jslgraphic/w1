@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1200px;
+    margin: 0 auto;
+   
+    
+}
+
+h1,h2{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    border-bottom:2px solid #000;
+}
+
+h2{
+    font-size: 32px;
+    color: #000;
+    font-weight: 600;
+    border-bottom:2px solid #000;
+    padding-bottom: 10px;
+
+  
+
+}
+
+span{
+    color: #A00404;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+p{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.skillbox{
+    text-align: center;
+    background: #415165;
+   
+}
+
+.inner{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.skillbox h2, .skillbox span, .skillbox p{
+    color: #fff;
+    
+}
+.skilist{
+    text-align: left;
+    border-left:1px solid #fff ;
+    width: 200px;
+    padding-left: 20px;
+    margin: 30px auto;
+    
+ 
+}
+
+.worklist{
+    border-left: 1px solid #000;
+    padding-left:20px ;
+    margin: 30px 0;
+}
+
+
+.footer {
+    text-align: center;
+    background: #415165;
+   
+}
+
+.footer h2, .footer span, .footer p{
+    color: #fff;
+    
+}
+
+.contactlist{
+    text-align: center;
+    margin: 30px auto;
+    
+ 
+}
+
+.icongroup{
+    margin-top: 30px;
+}
+.icongroup img{
+    padding: 0 5px;
+
+}
+
+.footer h2, .skillbox h2{
+    border-bottom: 1px solid #fff;
+}
